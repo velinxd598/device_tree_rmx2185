@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_RMX2185
+PRODUCT_NAME := superior_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
@@ -35,14 +35,3 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# Time
-LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
-
-#Gapps & Octavi Stuff
-TARGET_GAPPS_ARCH := arm64
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USES_BLUR := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-WITH_GAPPS := true
-OCTAVI_BUILD_TYPE := UNOFFICIAL
-OCTAVI_DEVICE_MAINTAINER := VelinXD
