@@ -4,6 +4,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1 \
     persist.sys.sf.disable_blurs=1
 
+# Netflix
+ro.netflix.bsp_rev=Q6150-17263-1
+
 # VoLTE
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
