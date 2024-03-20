@@ -24,8 +24,12 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
+# Awaken flags
+AWAKEN_BUILD_TYPE := COMMUNITY
+IS_PHONE:=true
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_RMX2185
+PRODUCT_NAME := awaken_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
