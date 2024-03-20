@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_RMX2185.mk
+    $(LOCAL_DIR)/superior_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_RMX2185-user \
-    octavi_RMX2185-userdebug \
-    octavi_RMX2185-eng
+    superior_RMX2185-user \
+    superior_RMX2185-userdebug \
+    superior_RMX2185-eng
