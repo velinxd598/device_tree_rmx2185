@@ -24,12 +24,20 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/awaken/config/common.mk)
 
-# Awaken flags
-AWAKEN_BUILD_TYPE := COMMUNITY
-IS_PHONE:=true
+# Komodo stuff
+# Build Stuff
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_FACE_UNLOCK := true
+IS_PHONE := true
+
+# Komodo Stuff
+KOMODO_OFFICIAL := false
+KOMODO_GAPPS_TYPE := nogapps
+KOMODO_VARIANT := RELEASE
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := awaken_RMX2185
+PRODUCT_NAME := komodo_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
