@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_RMX2185.mk
+    $(LOCAL_DIR)/awaken_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_RMX2185-user \
-    superior_RMX2185-userdebug \
-    superior_RMX2185-eng
+    awaken_RMX2185-user \
+    awaken_RMX2185-userdebug \
+    awaken_RMX2185-eng
