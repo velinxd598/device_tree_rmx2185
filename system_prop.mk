@@ -5,7 +5,17 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.sf.disable_blurs=1
 
 # Netflix
-ro.netflix.bsp_rev=Q6150-17263-1
+ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
+ro.netflix.signup=1
+
+# WiFi
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+mediatek.wlan.ctia=0
+wifi.tethering.interface=ap0
+persist.vendor.wfc.sys_wfc_support=1
 
 # VoLTE
 persist.dbg.volte_avail_ovr=1
