@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_RMX2185.mk
+    $(LOCAL_DIR)/komodo_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_RMX2185-user \
-    awaken_RMX2185-userdebug \
-    awaken_RMX2185-eng
+    komodo_RMX2185-user \
+    komodo_RMX2185-userdebug \
+    komodo_RMX2185-eng
