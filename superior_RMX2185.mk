@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/octavi/config/common.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_RMX2185
