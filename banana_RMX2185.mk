@@ -24,20 +24,20 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/awaken/config/common.mk)
 
-# Komodo stuff
-# Build Stuff
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
-TARGET_FACE_UNLOCK := true
-IS_PHONE := true
+# GMS
+TARGET_GAPPS_ARCH := arm64
 
-# Komodo Stuff
-KOMODO_OFFICIAL := false
-KOMODO_GAPPS_TYPE := nogapps
-KOMODO_VARIANT := RELEASE
+# Gapps
+WITH_GAPPS := false
+
+# Official
+BANANA_MAINTAINER := Velin
+
+# Nuke Innertune
+TARGET_EXCLUDE_INNERTUNE := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := komodo_RMX2185
+PRODUCT_NAME := banana_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
