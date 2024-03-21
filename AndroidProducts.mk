@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_RMX2185.mk
+    $(LOCAL_DIR)/banana_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_RMX2185-user \
-    komodo_RMX2185-userdebug \
-    komodo_RMX2185-eng
+    banana_RMX2185-user \
+    banana_RMX2185-userdebug \
+    banana_RMX2185-eng
