@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_RMX2185.mk
+    $(LOCAL_DIR)/aosp_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_RMX2185-user \
-    syberia_RMX2185-userdebug \
-    syberia_RMX2185-eng
+    aosp_RMX2185-user \
+    aosp_RMX2185-userdebug \
+    aosp_RMX2185-eng
