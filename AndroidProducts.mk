@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_RMX2185.mk
+    $(LOCAL_DIR)/syberia_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_RMX2185-user \
-    banana_RMX2185-userdebug \
-    banana_RMX2185-eng
+    syberia_RMX2185-user \
+    syberia_RMX2185-userdebug \
+    syberia_RMX2185-eng
