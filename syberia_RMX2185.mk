@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/awaken/config/common.mk)
+$(call inherit-product, vendor/syberia/config/common.mk)
 
 # GMS
 TARGET_GAPPS_ARCH := arm64
@@ -30,14 +30,13 @@ TARGET_GAPPS_ARCH := arm64
 # Gapps
 WITH_GAPPS := false
 
-# Official
-BANANA_MAINTAINER := Velin
+SYBERIA_BUILD_TYPE := COMMUNITY
 
-# Nuke Innertune
-TARGET_EXCLUDE_INNERTUNE := true
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := banana_RMX2185
+PRODUCT_NAME := syberia_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
