@@ -22,21 +22,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/syberia/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # GMS
 TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Gapps
 WITH_GAPPS := false
 
-SYBERIA_BUILD_TYPE := COMMUNITY
+#TenX Official
+CUSTOM_BUILD_TYPE := Community
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_RMX2185
+PRODUCT_NAME := aosp_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
@@ -46,3 +48,11 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="RMX2185-userdebug 11 RD2A.211001.002 3a37cd95e2 release-keys"
+
+BUILD_FINGERPRINT := "realme/RMX2185/RMX2185:11/RD2A.211001.002/3a37cd95e2:userdebug/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="RMX2185" \
+    TARGET_DEVICE="RMX2185"
