@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_RMX2185.mk
+    $(LOCAL_DIR)/kasumi_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_RMX2185-user \
-    fluid_RMX2185-userdebug \
-    fluid_RMX2185-eng
+    kasumi_RMX2185-user \
+    kasumi_RMX2185-userdebug \
+    kasumi_RMX2185-eng
