@@ -31,8 +31,11 @@ IS_PHONE := true
 # Gapps
 WITH_GAPPS := false
 
-#TenX Official
-CUSTOM_BUILD_TYPE := Community
+# Fluid stuff
+FLUID_BUILD_TYPE := Community
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.fluid.maintainer=MLZ94 \
+  ro.fluid.cpu=MT6765
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
