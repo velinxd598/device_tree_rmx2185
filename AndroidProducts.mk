@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2185.mk
+    $(LOCAL_DIR)/fluid_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX2185-user \
-    aosp_RMX2185-userdebug \
-    aosp_RMX2185-eng
+    fluid_RMX2185-user \
+    fluid_RMX2185-userdebug \
+    fluid_RMX2185-eng
