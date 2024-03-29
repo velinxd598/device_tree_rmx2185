@@ -34,14 +34,15 @@ WITH_GAPPS := false
 # Fluid stuff
 FLUID_BUILD_TYPE := Community
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=MLZ94 \
+  ro.fluid.maintainer=VelinXD \
   ro.fluid.cpu=MT6765
+  ro.fluid.battery=6000 mAh
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_RMX2185
+PRODUCT_NAME := fluid_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
