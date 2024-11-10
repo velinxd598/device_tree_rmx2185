@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kasumi_RMX2185.mk
+    $(LOCAL_DIR)/syberia_RMX2185.mk
 
 COMMON_LUNCH_CHOICES := \
-    kasumi_RMX2185-user \
-    kasumi_RMX2185-userdebug \
-    kasumi_RMX2185-eng
+    syberia_RMX2185-user \
+    syberia_RMX2185-userdebug \
+    syberia_RMX2185-eng
