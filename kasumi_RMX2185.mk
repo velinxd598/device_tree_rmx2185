@@ -26,17 +26,16 @@ $(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 
 
 #Kasumi Stuff
-KASUMI_BUILD_TYPE := gapps
-TARGET_GAPPS_ARCH := arm | arm64
-KASUMI_BUILD_TYPE := auroraoss
-KASUMI_SHIP_LAWNCHAIR := true
-KASUMI_SHIP_ADAWAY := true
+SYBERIA_BUILD_TYPE := COMMUNITY
+
+# GApps
+TARGET_GAPPS_ARCH := arm64
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := kasumi_RMX2185
+PRODUCT_NAME := syberia_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
